@@ -80,7 +80,7 @@ custom_replacements = {
     # IP Ranges Primary
     # Regional Address Space: 10.0.0.0/16
     primary_hub_address_space                          = "10.224.0.0/16"
-    primary_hub_virtual_network_address_space          = "10.224.50.0/24"
+    primary_hub_virtual_network_address_space          = "10.224.48.0/20"
     primary_nva_subnet_address_prefix                  = "10.224.51.0/24"
     primary_nva_ip_address                             = "10.224.51.1"
     primary_gateway_subnet_address_prefix              = "10.224.53.0/24"
@@ -360,3 +360,4 @@ telemetry_additional_content = {
   deployed_by    = "alz-terraform-accelerator"
   correlation_id = "00000000-0000-0000-0000-000000000000"
 }
+
