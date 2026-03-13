@@ -1,7 +1,7 @@
 variable "hub_and_spoke_networks_settings" {
   type = object({
     enabled_resources = optional(object({
-      ddos_protection_plan = optional(any, true)
+      ddos_protection_plan = optional(any, false)
     }), {})
     ddos_protection_plan = optional(object({
       name                = optional(string)
