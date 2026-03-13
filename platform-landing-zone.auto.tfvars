@@ -50,7 +50,7 @@ custom_replacements = {
     dcr_defender_sql_name                   = "dcr-defender-sql"
     dcr_vm_insights_name                    = "dcr-vm-insights"
 
-    # AMBA
+    # AMBA prerequisites
     amba_resource_group_name                 = "rg-amba-$${starter_location_01}"
     amba_user_assigned_managed_identity_name = "uami-mgmt-amba-$${starter_location_01}"
 
@@ -201,7 +201,6 @@ management_group_settings = {
     amba_alz_logicapp_callback_url                 = ""
     amba_alz_byo_alert_processing_rule             = ""
     amba_alz_byo_action_group                      = []
-
     /*
     # Example of allowed locations for Sovereign Landing Zones policies
     allowed_locations = [
